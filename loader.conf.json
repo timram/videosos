@@ -1,0 +1,8 @@
+{
+  "publicPath": "./files/",
+  "videos": [
+    "https://www.youtube.com/watch?v=H6cyIG0CRQg",
+    "https://www.youtube.com/watch?v=etVNNMpckcE",
+    "https://www.youtube.com/watch?v=ngcTfQBQjF8"
+  ]
+}

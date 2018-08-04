@@ -1,0 +1,17 @@
+{
+  "name": "videosos",
+  "version": "1.0.0",
+  "description": "Script that soset music from youtube",
+  "main": "app.js",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "node-cmd": "^3.0.0",
+    "youtube-dl": "^1.12.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tima Ramazanov",
+  "license": "ISC"
+}
