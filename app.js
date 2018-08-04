@@ -1,11 +1,12 @@
 const fs = require('fs');
 const youdl = require('youtube-dl');
 const { flow } = require('lodash/fp');
+const path = require('path');
 
 const clearExtensions = name => name.replace(/\.\w*$/, '');
 
 const getConfig = () => {
-  const config = JSON.parse(fs.readFileSync('loader.conf.json'));
+  const config = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'loader.conf.json')));
   const videos = config.videos || [];
   const publicPath = config.publicPath || './';
   return { videos, publicPath };
